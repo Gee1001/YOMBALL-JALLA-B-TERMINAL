@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/user HTTP/1.1
+content-type: application/json 
+
+{
+  "email": "gjarju99@gmial.com",
+  "password": "12345678",
+  "firstname": "Gee",
+  "minit": "",
+  "lastname": "jarju"
+}
