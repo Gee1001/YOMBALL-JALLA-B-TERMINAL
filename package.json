@@ -1,0 +1,27 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gee1001/YOMBALL-JALLA-B-TERMINAL.git"
+  },
+  "author": "Gibril jarju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gee1001/YOMBALL-JALLA-B-TERMINAL/issues"
+  },
+  "homepage": "https://github.com/Gee1001/YOMBALL-JALLA-B-TERMINAL#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
