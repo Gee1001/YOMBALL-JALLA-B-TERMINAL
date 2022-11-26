@@ -1,2 +1,16 @@
 PUT http://localhost:3001/api/user/63520fbd3fd62deda06ba216
 content-type: application/json
+
+
+### sale
+PUT http://localhost:3001/api/sale/6379aad7a3a4c83b53f09bf0
+content-type: application/json
+
+
+{
+"description": "car",
+"qty": 100,
+"price": 600,
+"Total": 25000,
+"userId": "6379aa35a3a4c83b53f09bed"
+}

@@ -2,14 +2,25 @@ POST http://localhost:3001/api/User HTTP/1.1
 content-type: application/json 
 
 
+
 {  
-  "email": "gjarju99@gmail",
-  "password": "98765432",
-  "firstname": "gee",
-  "minit": "",
-  "lastname": "jarju"
-  
+  "email": "edi200@gmail.com",
+  "password": "hako",
+  "firstname": "Edirisa",
+  "minit": "M",
+  "lastname": "colley"
 }
 
 
+###
+POST http://localhost:3001/api/sale HTTP/1.1
+content-type: application/json
 
+
+{
+"description": "truck",
+"qty": 100,
+"price": 1500,
+"Total": 2000,
+"userId": "6379aa35a3a4c83b53f09bed"
+}

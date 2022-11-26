@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+const sale = require('./sale')
 
 const userSchema = new mongoose.Schema(
     {
@@ -37,10 +38,18 @@ const userSchema = new mongoose.Schema(
             enum:['Admin', 'user'],
             default: 'user'
 
+        },
+
+        sales:[
+            {
+            type:mongoose.Schema.Types.ObjectId,
+            ref:'sale'
         }
+    ]
 
         
     },
+    
     { timestamps:true}
 )
 
